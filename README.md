@@ -1,19 +1,21 @@
-
-<h1> Classical Approach </h1>
+<h1>Classical Approach</h1>
 <p>
-    Classical edge detection of images are done by methods/algo such as Sobel operator, Laplacian based Methods as these are FirstODE
-    Sobel Operator uses 3X3 convolutional kernel to calculating gradients in the hori and verti directions
-    </br>
-    the wildly used algorithm is Canny edge detector        
+    Classical edge detection in images is performed using algorithms such as the 
+    <b>Sobel Operator</b> and <b>Laplacian-based methods</b>, which are first-order differential approaches.
+    The Sobel Operator uses a <b>3×3 convolutional kernel</b> to calculate gradients in both 
+    horizontal and vertical directions.  
+    <br><br>
+    The most widely used classical algorithm, however, is the <b>Canny Edge Detector</b>.
 </p>
-<h2> Quantum approach </h2>
 
-<h3>But why is Quantum approach better ?</h3>
-    </br>
-    <li>
-        <ul>leverage the principles of quantum computing, such as superposition and entanglement, to process image data more efficiently than classical methods</ul>
-        <ul>QPIE(Quantum Probability image encoding)</ul>
-        <ul>These algorithms aim to detect the boundaries and features within images by exploiting quantum parallelism, which allows for the simultaneous processing of multiple pixel neighborhoods</ul>
-        <ul>A foundational approach involves encoding image pixel information into quantum states, where pixel positions are represented by computational basis states and pixel values are encoded as probability amplitudes</ul>
-        <ul>One of the earliest and most notable quantum edge detection algorithms is the Quantum Hadamard Edge Detection (QHED) algorithm, which can detect edges with only a single-qubit Hadamard gate, independent of the image size, resulting in a constant time complexity of O(1) compared to the classical O(2n) complexity</ul>
-    </li>
+<h2>Quantum Approach</h2>
+
+<h3>Why is the Quantum Approach Better?</h3>
+
+<ul>
+    <li>Leverages the principles of quantum computing—such as <b>superposition</b> and <b>entanglement</b>—to process image data more efficiently than classical methods.</li>
+    <li>Introduces <b>QPIE (Quantum Probability Image Encoding)</b> for representing images in quantum systems.</li>
+    <li>Exploits <b>quantum parallelism</b>, enabling the simultaneous processing of multiple pixel neighborhoods to detect image boundaries and features.</li>
+    <li>Encodes pixel information into <b>quantum states</b>, where pixel positions correspond to computational basis states and pixel values are represented as probability amplitudes.</li>
+    <li>The <b>Quantum Hadamard Edge Detection (QHED)</b> algorithm—one of the earliest and most notable quantum edge detection methods—can detect edges using only a single-qubit Hadamard gate, independent of image size. This achieves a constant time complexity of <b>O(1)</b>, compared to the classical complexity of <b>O(2ⁿ)</b>.</li>
+</ul>
