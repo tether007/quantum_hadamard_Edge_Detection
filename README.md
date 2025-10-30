@@ -15,5 +15,5 @@
         <ul>These algorithms aim to detect the boundaries and features within images by exploiting quantum parallelism, which allows for the simultaneous processing of multiple pixel neighborhoods</ul>
         <ul>A foundational approach involves encoding image pixel information into quantum states, where pixel positions are represented by computational basis states and pixel values are encoded as probability amplitudes</ul>
         <ul>One of the earliest and most notable quantum edge detection algorithms is the Quantum Hadamard Edge Detection (QHED) algorithm, which can detect edges with only a single-qubit Hadamard gate, independent of the image size, resulting in a constant time complexity of O(1) compared to the classical O(2n) complexity</ul>
-
+    </li>
 </p>
